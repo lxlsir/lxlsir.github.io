@@ -1,0 +1,241 @@
+*{padding:0;margin: 0;text-decoration: none;}
+body{
+	background: #f2f2f2;
+}
+/* 导航条样式 */
+#nav{
+	background: black;
+	opacity: 0.75;
+	position: fixed;
+	top:0;width: 100%;
+	z-index: 1;
+}
+
+#nav .up{
+	/*background: red;*/
+	text-align: center;
+	padding: 15px 0 20px;
+}
+
+#nav .up img{
+	width: 135px;
+	vertical-align: top;
+}
+
+#nav .down{
+	/*background: yellow;*/
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+
+#nav .down a{
+	/*background: blue;*/
+	color: #a1a1a1;
+	text-decoration: none; 
+	padding:0 4.32%;
+}
+
+#nav .down a:hover{
+	color: white;
+}
+
+/* 内容样式设置 */
+#content{
+	width: 78%;
+	/*background: yellow;*/
+	margin: 130px auto 0;
+}
+
+#content .imgDiv{
+	/*background: red;*/
+	position: relative;
+	text-align: center;
+}
+
+/* 图片样式 */
+#content .imgDiv img{
+	 width: 100%;
+	 vertical-align: top;
+}
+
+/* 段落内容 */
+#content .imgDiv p{
+	position: absolute;
+	bottom: 0;
+	background: black;
+	color: white;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	opacity: 0.5;
+}
+
+#content .pageControlDiv {
+	/*background: pink;*/
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	padding: 15px 0;
+}
+
+#content .pageControlDiv span{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: black;
+	opacity: 0.5;
+	border-radius: 4px;
+	margin:0 8px;
+	vertical-align: middle;}
+
+#content .pageControlDiv .white{
+	background: white;
+	border: 1px black solid;
+}
+
+#content .pDiv p{
+	/*background: cyan;*/
+	color: #6e6666;
+	text-indent: 2em;
+	font-size: 12px;
+	text-align: justify;
+	border-top: 1px #e8e8e8 solid;
+	border-bottom: 1px #e8e8e8 solid;
+	padding:18px 0;
+	line-height: 19px;
+}
+
+/* 小图片div样式 */
+#content .sDiv{
+	/*background: red;*/
+	overflow: hidden;
+	padding: 12px 0;
+	text-align: center;
+}
+
+/* 图片样式 */
+#content .sDiv img{
+	width: 49px;
+	/*float: left;*/
+	margin:0 1%;
+}
+
+/* 多张图片div的样式 */
+
+#content .link {
+	overflow: hidden;
+}
+			
+#content .link>div {
+	width: 30%;
+	float: left;
+	cursor:pointer
+}
+			
+#content .link .up {
+	position: relative;
+	width: 100%;
+	font-size: 0;
+}
+			
+#content .link .up img {
+	width: 100%;
+}
+			
+#content .link .up a {
+	list-style: none;
+	color: rgba(255, 255, 255, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+	padding-top: 13%;
+}
+			
+#content .link .up a li:nth-child(1) {
+	font-size: 30px;
+}
+			
+#content .link .up a li:nth-child(2) {
+	font-size: 16px;
+}
+			
+#content .link div>a {
+	display: block;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	color: gray;
+	padding:2.3% 0;
+	font-size: 4.5%;
+}
+			
+#content .link>div:hover>a {
+	color: black;
+}
+			
+#content .link>div:hover .up a {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+			
+#content .link>div:nth-child(3n+2) {
+	margin: 0 5%;
+	margin-top: 3%;
+}
+			
+#content .link>div {
+	margin-top: 3%;
+}
+	
+/* 底部样式设置 */
+#bottom{
+	width: 100%;
+	height: 172px;
+	background: #E0E0E0;
+	margin-top: 5%;
+}
+
+#bottom .left{
+	width: 49%;
+	float: left;
+	/*background: blue;*/}
+
+#bottom .left .tu{
+	width: 108px;
+	height: 50px;
+	/*background: red;*/
+	float: right;
+	margin-right: 35px;}
+
+#bottom .left .tu img{
+	width: 30px;
+	margin-right: 2px;
+	margin-top: 10px;
+	float: right;}
+
+#bottom .right{
+	width: 49%;
+	float: right;}
+
+#bottom .right .dright{
+	height: 147px;
+	border-left: 1px #bcbcba solid;}
+
+#bottom .right img{
+	width: 143px;
+	margin-left: 23px;
+	margin-top: 10px;}
+
+#bottom .right .dright ul{
+	list-style: none;
+	line-height: 18px;
+	margin-top: 8px;
+	font-size: 12px;
+	margin-left: 23px;
+	color: #6c666a;}
